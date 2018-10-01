@@ -1,9 +1,9 @@
-# Simple React / Redux / GraphQL / Graphcool test project
+# Simple React / Redux / GraphQL / Graphcool test project [![Build Status](https://travis-ci.org/Cirych/react-test.svg?branch=master)](https://travis-ci.org/Cirych/react-test)
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 ## Demo
-[View demo](https://cirych.github.io/react-test)
+[View live demo](https://cirych.github.io/react-test)
 
 ## Install locally
 
