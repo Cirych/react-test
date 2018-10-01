@@ -1,0 +1,25 @@
+.OrderItem {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px;
+}
+
+.OrderItem > * {
+  margin: 6px;
+}
+
+.OrderItem > .Info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.OrderItem > .Info > div {
+  white-space: nowrap;
+}
+
+.OrderItem.selected {
+  border: 1px dashed black;
+}

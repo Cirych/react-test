@@ -1,0 +1,26 @@
+
+type Order @model {
+  id: ID! @isUnique
+  createdAt: DateTime!
+  status: Status @defaultValue(value: "IN_PROGRESS")
+  products: [OrderedProduct!]! @relation(name: "OrderProducts")
+}
+
+type OrderedProduct @model {
+  id: ID! @isUnique
+  product: Product @relation(name: "OrderProduct")
+  quantity: Int
+  orders: [Order!]! @relation(name: "OrderProducts")
+}
+
+type Product @model {
+  id: ID! @isUnique
+  name: String
+  price: Float
+  orders: [OrderedProduct!]! @relation(name: "OrderProduct")
+}
+
+enum Status {
+  COMPLETE
+  IN_PROGRESS
+}

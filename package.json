@@ -1,0 +1,49 @@
+{
+  "name": "react-test",
+  "version": "0.1.0",
+  "private": true,
+  "homepage" : "https://cirych.github.io/react-test",
+  "author": {
+    "name": "Cirych"
+  },
+  "repository": {
+    "url": "https://github.com/Cirych/react-test.git"
+  },
+  "scripts": {
+    "start": "react-scripts-ts start",
+    "build": "react-scripts-ts build",
+    "deploy:server": "cd server && graphcool deploy",
+    "storybook": "start-storybook -p 6006 --ci",
+    "build-storybook": "build-storybook"
+  },
+  "dependencies": {
+    "apollo-boost": "^0.1.16",
+    "apollo-cache-redux": "^0.1.1",
+    "graphql": "^14.0.2",
+    "react": "^16.5.2",
+    "react-apollo": "^2.2.0",
+    "react-dom": "^16.5.2",
+    "react-redux": "^5.0.7",
+    "react-scripts-ts": "2.17.0",
+    "recompose": "^0.30.0",
+    "redux": "^4.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@storybook/addon-actions": "^4.0.0-alpha.23",
+    "@storybook/addon-links": "^4.0.0-alpha.23",
+    "@storybook/addons": "^4.0.0-alpha.23",
+    "@storybook/react": "^4.0.0-alpha.23",
+    "@types/graphql": "^14.0.1",
+    "@types/jest": "^23.3.2",
+    "@types/node": "^10.11.0",
+    "@types/react": "^16.4.14",
+    "@types/react-dom": "^16.0.7",
+    "@types/react-redux": "^6.0.9",
+    "@types/recompose": "^0.26.5",
+    "babel-loader": "^8.0.4",
+    "graphcool": "^0.11.6",
+    "ts-loader": "^5.2.1",
+    "typescript": "^3.0.3"
+  }
+}

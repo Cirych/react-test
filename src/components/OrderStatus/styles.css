@@ -1,0 +1,29 @@
+.OrderStatus {
+  width: 20px;
+  height: 20px;
+}
+
+.OrderStatus.IN_PROGRESS {
+  background-color: red;
+}
+
+.OrderStatus.COMPLETE {
+  background-color: green;
+}
+
+.OrderStatusLegend {
+  display: inline-flex;
+  flex-direction: row;
+}
+
+.OrderStatusLegend > * {
+  margin: 0 6px;
+}
+
+.OrderStatusLegend.IN_PROGRESS {
+  color: red;
+}
+
+.OrderStatusLegend.COMPLETE {
+  color: green;
+}

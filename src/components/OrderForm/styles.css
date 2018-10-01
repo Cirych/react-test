@@ -1,0 +1,38 @@
+.OrderForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.OrderForm > * {
+  margin-bottom: 10px;
+}
+
+.OrderForm .Info {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  background-color: rgba(0, 0, 0, 0.01);
+}
+
+.OrderForm .Info > * {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 6px;
+}
+
+.OrderForm .Content {
+  display: table;
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+}
+
+.OrderForm .Content > div {
+  display: table-row;
+  border: 1px solid #ccc;
+}
+
+.OrderForm .Content > div > div {
+  display: table-cell;
+  padding: 6px;
+}

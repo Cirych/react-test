@@ -1,0 +1,8 @@
+.OrderFilter {
+  display: flex;
+  flex-direction: column;
+}
+
+.OrderFilter > * {
+  margin: 6px;
+}
